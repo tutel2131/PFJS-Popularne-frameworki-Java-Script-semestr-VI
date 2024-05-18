@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+----------------------------------------------------------
+## Opis projektu
+
+Projekt to (niedokończona) aplikacja internetowa z bazą filmów, seriali.
+
+Jest zbudowana za pomocą frameworka Angular.
+
+Zostały w niej użyte użyte narzędzia takie jak:
+- generatory komponentów - (komenda ng generate component component-name) dla każdej ważniejszej części zostały stworzone osobne komponenty np. landing-page, films, registration, news.
+Stworzone zostały także modele np. news.model.ts
+- routing - plik app-routing.module.ts, np:  { path: 'strona-główna', component: LandingPageComponent }, pozwala na przekierowanie na stronę główną i załadowanie komponentu LandingPageComponent
+- serwisy - współpraca z REST API, pobieranie danych z bazy danych w formie JSON, np serwis films.service.ts pobiera listę filmów z bazy danych
+lub auth.service.ts pozwala na rejestrację i logowanie użytkowników
+
