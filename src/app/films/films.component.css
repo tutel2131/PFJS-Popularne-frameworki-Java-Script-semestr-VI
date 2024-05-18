@@ -1,0 +1,50 @@
+.image-parent {
+    
+    display: inline-block;
+    
+  }
+
+  .list_of_films
+  {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  h4
+  {
+    text-align: center;
+    max-width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  li 
+  {
+    float: left;
+  }
+
+
+  
+  a 
+  {
+    color: #000000; 
+    text-decoration: none; 
+  }
+
+
+  a:hover {
+    color: rgb(230, 55, 45);
+    
+  }
+
+  li:hover
+  {
+        
+    cursor:pointer;
+    text-decoration: none;
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
