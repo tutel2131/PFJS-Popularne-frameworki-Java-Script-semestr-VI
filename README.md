@@ -38,6 +38,6 @@ Zostały w niej użyte użyte narzędzia takie jak:
 - generatory komponentów - (komenda ng generate component component-name) dla każdej ważniejszej części zostały stworzone osobne komponenty np. landing-page, films, registration, news.
 Stworzone zostały także modele np. news.model.ts
 - routing - plik app-routing.module.ts, np:  { path: 'strona-główna', component: LandingPageComponent }, pozwala na przekierowanie na stronę główną i załadowanie komponentu LandingPageComponent
-- serwisy - współpraca z REST API, pobieranie danych z bazy danych w formie JSON, np serwis films.service.ts pobiera listę filmów z bazy danych
+- serwisy - współpraca z REST API, pobieranie danych z bazy danych w formie JSON, np serwis films.service.ts pobiera listę filmów z bazy danych (https://filmix-80ef5-default-rtdb.firebaseio.com/g.json)
 lub auth.service.ts pozwala na rejestrację i logowanie użytkowników
 
