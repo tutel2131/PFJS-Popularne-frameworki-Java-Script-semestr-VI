@@ -41,3 +41,4 @@ Stworzone zostały także modele np. news.model.ts
 - serwisy - współpraca z REST API, pobieranie danych z bazy danych w formie JSON, np serwis films.service.ts pobiera listę filmów z bazy danych (https://filmix-80ef5-default-rtdb.firebaseio.com/g.json)
 lub auth.service.ts pozwala na rejestrację i logowanie użytkowników
 
+Angular dzięki tworzeniu osobnych komponentów pozwolił na uporządkowanie kodu, podzielenia go na 'części', co zwiększyło czytelność projektu.
